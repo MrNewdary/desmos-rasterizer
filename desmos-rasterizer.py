@@ -3,7 +3,7 @@ import pyperclip
 import numpy as np
 from time import sleep
 
-img = Image.open('spooderman.png')
+img = Image.open('')
 img = img.resize((1200//20,1577//20))
 pixels = img.load()
 l = [[0]*img.size[1] for i in range(img.size[0])]
